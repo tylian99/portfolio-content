@@ -1,0 +1,83 @@
+/* PART 1: Write these rules on your own. */
+
+body{
+  /* make all text courier, set margin and padding to 10px */
+  font-family: Calibri,'Courier New', Courier, monospace;
+  margin: 10px;
+  padding: 10px;
+}
+
+nav{
+  background-color: rgb(255, 251, 0);
+  padding: 20px 0;
+  text-align: left;
+  grid-column: 1 / -1;
+}
+
+h1{
+  /* make your headers 32px, #128ded color and bold */
+  font-size: 50px;
+  color: #0240c8;
+  font-weight: bold;
+}
+
+h2{
+  /* make your headers 32px, #128ded color and bold */
+  font-size: 40px;
+  color: #00dacca8;
+  font-weight: bold;
+}
+
+h3{
+  /* make your headers 32px, #128ded color and bold */
+  font-size: 30px;
+  color: #b9e713;
+  font-weight: bold;
+}
+
+p{
+  /* make your paragraphs 14pt, double-spaced and 10px of padding on the left and right */
+  font-size: 14pt;
+  line-height: 2;
+  padding: 0 10px;
+}
+
+
+/* Part 2: And now debug..... */
+a{
+  /* make your links red, use italics, and be underlined */
+  color: #f02d7d;
+  font-style: italics;
+  text-decoration: underline;
+}
+
+
+a:hover{
+  /* make the background color of your link black and the text white when you hover over it */
+  color: yellow;
+  background-color: blue;
+}
+
+img{
+  padding: 10px;
+  max-height: 50%;
+  margin: 10px 10px;
+  border: 10px dashed #19D719;
+  width: auto;
+}
+
+img:hover {
+  transform: scaleX(-1);
+}
+
+ul{
+  /* make bullet points red squares */
+  list-style: square;
+  color: red;
+}
+
+.footer{
+  /* style the footer so it has a black background and white text */
+  color: white;
+  background-color: black;
+}
