@@ -2,28 +2,35 @@
 
 body{
   /* make all text courier, set margin and padding to 10px */
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Calibri,'Courier New', Courier, monospace;
   margin: 10px;
   padding: 10px;
+}
+
+nav{
+  background-color: rgb(255, 251, 0);
+  padding: 20px 0;
+  text-align: left;
+  grid-column: 1 / -1;
 }
 
 h1{
   /* make your headers 32px, #128ded color and bold */
   font-size: 50px;
-  color: #128ded;
+  color: #0240c8;
   font-weight: bold;
 }
 
 h2{
   /* make your headers 32px, #128ded color and bold */
-  font-size: 50px;
-  color: #13e741;
+  font-size: 40px;
+  color: #00dacca8;
   font-weight: bold;
 }
 
 h3{
   /* make your headers 32px, #128ded color and bold */
-  font-size: 50px;
+  font-size: 30px;
   color: #b9e713;
   font-weight: bold;
 }
@@ -39,7 +46,7 @@ p{
 /* Part 2: And now debug..... */
 a{
   /* make your links red, use italics, and be underlined */
-  color: #D10000;
+  color: #f02d7d;
   font-style: italics;
   text-decoration: underline;
 }
@@ -47,16 +54,21 @@ a{
 
 a:hover{
   /* make the background color of your link black and the text white when you hover over it */
-  color: white;
-  background-color: black;
+  color: yellow;
+  background-color: blue;
 }
 
 img{
-  /* make the image 300px wide and 220px high, 10px of padding, and a 10px dashed border in the color of your choice */
   padding: 10px;
-  border: 10px dashed #1ba550;
+  max-height: 50%;
+  margin: 10px 10px;
+  border: 10px dashed #19D719;
+  width: auto;
 }
 
+img:hover {
+  transform: scaleX(-1);
+}
 
 ul{
   /* make bullet points red squares */
